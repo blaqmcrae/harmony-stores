@@ -1,0 +1,231 @@
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+}
+html{
+  width:100vw;
+  height:100vh;
+}
+body{
+  font-family: "Montserrat";
+  background-color:rosybrown;
+  width:100%;
+  height: 100%;
+  color: cyan;
+}
+/* Navbar Row */
+.navbar {
+  width:100vw;
+  background-color: #fff;
+  font-family: Arial;
+  padding:0 0.5rem 0 0.5rem;
+}
+
+.logo{
+height: 40px;
+width:155px;
+}
+.nav-item {
+  padding: 0 1.5rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat-light";}
+
+  /* Links styling */
+  a:active{
+    background: grey;
+    transition: .5s;
+  }
+a:hover{
+  background-color:#EDE4E0;
+  border-radius: 12px;
+}
+/* BODY WORK */
+.div1{
+  width: 100vw;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.text{
+  text-align: center;
+  padding: 80px 50px 30px;
+}
+.btn1{
+  margin: 20px 10px;
+  border-radius: 16px;
+}
+.wrapper{
+  width: 100vw;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px 0px;
+  margin: 20px 10px;
+}
+.wrapper img{
+  height: 100px;
+  width: 100px;
+}
+#banner{
+  width: 80%;
+  padding: 0 10%;
+  margin: 20px 10%;
+}
+.bannerImg{
+  text-align: center;
+  width: 70vw;
+  height: 400px;
+
+}
+.adverts{
+  text-align: center;
+  background-color: darkorange;
+  width: 700px;
+  height: 150px;
+  margin: 20px auto;
+  padding: 50px 50px;
+}
+.app-text{
+  width: 100vw;
+  padding: 50px 30%;
+  text-align: center;
+}
+.nft{
+  float: left;
+  height: 200px;
+  width: 200px;
+}
+
+.footer{
+  height: fit-content;
+  text-align: center;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 0;
+  padding: 40px 0;
+}
+.footerdiv{
+  text-align: center;
+}
+li{
+  font-size: .8125rem;
+  font-weight: 300;
+  list-style: none;
+  padding-top: 0.625rem;
+}
+.linnk{
+  text-decoration: none;
+  color: #EDE4E0;
+}
+h6{
+  text-align:center; font-weight: bold; background-color: black; margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+  
+
+@media (max-width: 1000px){
+  body{
+    width: 100vw;
+  }
+  .app-text{
+    margin: auto;
+    text-align: center;
+  }
+  .nft-text{
+    text-align: center;
+    padding: 0;
+  }
+  .nft{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .wrapper{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    width: 100vw;
+    margin: 20px;
+  }
+  .heroImg{
+    width:100vw;
+  }
+  #banner{
+    padding: 0;
+  }
+  .bannerImg{
+    width: 100vw;
+    height: auto;
+  }
+  .adverts{
+    text-align: center;
+    background-color: darkorange;
+    width: 80vw;
+    height: fit-content;
+    margin: 20px auto;
+    padding: auto;
+}
+@media (max-width: 800px){
+  body{
+    width: 100vw;
+  }
+
+  .wrapper{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    width: 100vw;
+  }
+  .heroImg{
+    width:100vw
+  }
+  #banner{
+    text-align: center;
+    margin: 10px auto;
+    padding: 0 auto;
+  }
+  .bannerImg{
+    width: 90%;
+    height: 350px;
+    margin: 0 5%;
+  }
+  .adverts{
+    text-align: center;
+    background-color: darkorange;
+    width: 80vw;
+    height: fit-content;
+    margin: 10px auto;
+    padding:0 10vw;}
+}
+}
