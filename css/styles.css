@@ -105,7 +105,7 @@ width:155px;
 
 .footer{
   background-color: #723881;
-  color: #61f2f5;
+  color: white;
   height: fit-content;
   text-align: center;
   display: grid;
@@ -125,7 +125,7 @@ li{
 }
 .linnk{
   text-decoration: none;
-  color: #61f2f5;
+  color: white;
 }
 
 
@@ -262,8 +262,8 @@ li{
   --bs-btn-bg: #723881;
   --bs-btn-border-color:#e0e0e0;
   --bs-btn-border-radius: .5rem;
-  --bs-btn-hover-color:#61f2f5;
-  --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+  --bs-btn-hover-color:#723881;
+  --bs-btn-hover-bg: white;
   --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
   --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
   --bs-btn-active-color: var(--bs-btn-hover-color);
